@@ -230,29 +230,16 @@ td {}
   bottom: 0;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #3A3D54;
-  text-align: center;
-  height: 40px;
-}
-
 footer p {
   padding-top: 12px;
 }
 
 .personalized-modal-content {
   width: 62%;
-    left: 0;
-    right: 0;
-    margin: auto;
-
-    background-color: #3A3D54;
+  margin: auto;
+  background-color: #3A3D54;
 }
 
 .personalized-modal {
-  background-color: rgba(0, 0, 0, 0.411);
+  background-color: rgba(0, 0, 0, 0.5);
 }
