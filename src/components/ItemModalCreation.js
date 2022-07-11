@@ -1,4 +1,5 @@
 import React from 'react'
+import Input from './Input'
 
 export default function ItemModalCreation() {
   return (
@@ -14,7 +15,7 @@ export default function ItemModalCreation() {
               data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body relative p-4 text-white ">
-            <p>This is a vertically centered modal.</p>
+            <Input />
           </div>
           <div
             class="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
